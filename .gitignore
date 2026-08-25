@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# Node
+node_modules/
+dist/
+.vite/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Data / Models (large files)
+*.bin
+*.pt
+*.onnx
+data/raw/
+*.parquet
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Antigravity / IDE
+.agents/
+HANDOFF.md
